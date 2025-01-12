@@ -1,0 +1,3 @@
+ng generate component components/employee-list
+ng generate component components/employee-detail
+ng generate component components/employee-form

@@ -1,0 +1,24 @@
+<div>
+  <h2>Add Employee</h2>
+  <form [formGroup]="employeeForm" (ngSubmit)="onSubmit()">
+    <label for="firstName">First Name:</label>
+    <input id="firstName" formControlName="firstName" type="text"/>
+    <label for="lastName">Last Name:</label>
+    <input id="lastName" formControlName="lastName" type="text"/>
+    <label for="email">Email:</label>
+    <input id="email" formControlName="email" type="email"/>
+    <label for="phone">Phone:</label>
+    <input id="phone" formControlName="phone" type="text"/>
+    <label for="position">Position:</label>
+    <input id="position" formControlName="position" type="text"/>
+    <label for="department">Department:</label>
+    <input id="department" formControlName="department" type="text"/>
+    <label for="dateOfBirth">Date of Birth:</label>
+    <input id="dateOfBirth" formControlName="dateOfBirth" type="date"/>
+    <label for="dateOfHire">Date of Hire:</label>
+    <input id="dateOfHire" formControlName="dateOfHire" type="date"/>
+    <label for="salary">Salary:</label>
+    <input id="salary" formControlName="salary" type="number"/>
+    <button type="submit">Submit</button>
+  </form>
+</div>

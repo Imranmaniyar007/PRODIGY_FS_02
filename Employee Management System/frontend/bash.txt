@@ -1,0 +1,2 @@
+ng new employee-management
+cd employee-management
